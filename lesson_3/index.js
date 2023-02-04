@@ -62,3 +62,5 @@ happyDay()
 setTimeout(() => {
     console.log(isLoading);
 }, 0)
+
+console.log("hello");
