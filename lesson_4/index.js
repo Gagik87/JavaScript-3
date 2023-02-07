@@ -15,3 +15,27 @@ btn.addEventListener("click", () => {
       .catch((err) => console.log(err));
   }, 2000);
 });
+
+
+// const applyForVisa2 = async () => {
+//   try {
+//       const res = await foo()
+
+//       console.log(res);
+//       const res2 = await goo(res)
+//       console.log(res2);
+//       return res2
+
+//   } catch (error) {
+//       console.log(error, 'error');
+//   }
+// }
+
+// async function foo() {
+
+//   return 'fooRes'
+// }
+// async function goo(fooRes) {
+//   throw new Error('error from function goo')
+//   return `${fooRes + ' gooRes'}`
+// }
